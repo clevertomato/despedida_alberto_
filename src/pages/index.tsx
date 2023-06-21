@@ -35,6 +35,7 @@ export default function Home() {
               width={200}
               height={225}
               className={'image'}
+              priority
             ></Image>
         </div>
         <div className="h-full ml-3 grid place-content-center text-xl ">
