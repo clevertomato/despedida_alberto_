@@ -41,6 +41,7 @@ export default function modal({open, opened}) {
             alt="Logo"
             className="object-cover cursor-pointer"
             layout="intrinsic"
+            priority
           />
             </div>
             <div className="grid place-content-center p-6 space-x-2 border-t border-blue-500 rounded-b dark:border-gray-600" onClick={openPaypal}>
