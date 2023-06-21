@@ -1,0 +1,94 @@
+.modal {
+    transition: all 1s ease;
+  }
+.text-shadow{
+  --tw-border-opacity: 1;
+  text-shadow: 1px 1px 2px white, 0 0 1px rgba(59, 130, 246, var(--tw-border-opacity)), 0 0 0.2em rgba(59, 130, 246, var(--tw-border-opacity));
+}
+
+.h-1-10{
+  height: 10%;
+}
+
+.resizeImage{
+  width: 50%;
+  min-height: 770px;
+}
+.resizeText{
+  width: 50%;
+}
+.resizeForm{
+  width: 50%;
+  min-height: 770px;
+}
+.flexposition{
+  flex-direction: row;
+}
+
+.appears{
+  display: block;
+}
+.not-appears{
+  display: none;
+}
+.image {
+  height: auto;
+  width: 100% !important;
+}
+.modalfixed{
+  position: fixed;
+    top: 0;
+    left: 0;
+}
+.h-25{
+  height: 25%;
+}
+.scrollyhidden{
+  overflow-y: hidden;
+}
+
+.autoheight{
+  height: 100vh;
+}
+
+@media only screen and (max-width: 736px ) {
+  .resizeImage{
+    width: -webkit-fill-available;
+    position: inherit;
+    min-height: auto;
+  }
+  .scrollyhidden{
+    overflow-y: visible;
+  }
+  .resizeText{
+    height: 100vh;
+    width: -webkit-fill-available;
+    position: inherit;
+  }
+  .resizeForm{
+    height: 100vh;
+    width: auto;
+  }
+  .flexposition{
+    flex-direction: column;
+  }
+  .appears{
+    display: none;
+}
+.autoheight{
+    height: auto;
+}
+  .not-appears{
+      display: block;
+  }
+  .textInfoSize{
+    font-size: 13px !important;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 1024px ) {
+.textInfoSize{
+  font-size: 14px;
+}
+}
